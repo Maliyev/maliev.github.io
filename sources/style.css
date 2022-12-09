@@ -395,47 +395,4 @@ footer{
    display: flex;
    justify-content: space-around;
 }
-/*.how_work_container p{ opacity:0; }
 
-.how_work:hover .how_work_container p{animation: opacity1 .8s 1 forwards;}
-.how_work:hover .how_work_container {animation: opacity1 .8s 1 forwards;}
-.how_work_container{opacity: 0;}
-@keyframes opacity1{
-   0%{
-      opacity:0;
-   }
-   100%{
-      opacity:1;
-   }
-}
-.about:hover .about_el1{
-   animation: opacity1 1s 1 forwards;
-}
-.about:hover .about_el2{
-   animation: opacity1 1s .2s 1 forwards;
-}
-.about:hover .about_el3{
-   animation: opacity1 1s .4s 1 forwards;
-}
-.about:hover .about_el4{
-   animation: opacity1 1s .6s 1 forwards;
-}
-.about:hover .about_el5{
-   animation: opacity1 1s .8s 1 forwards;
-}
-.about:hover .about_el6{
-   animation: opacity1 1s 1s 1 forwards;
-}
-.about_el{
-   opacity: 0;
-}
-.img span {opacity: 0;}
-.img:hover ._img {animation: opacity1 1s 1 forwards;}
-
-.design>*{opacity: 0;}
-.design:hover #main_text{animation: opacity1 1s 1 forwards;}
-.design:hover #design__img{animation: opacity1 1s .1s 1 forwards;}
-.design:hover .column{animation: opacity1 1s 1 forwards;}
-
-.last>*{opacity: 0;}
-.last:hover .last_container{animation: opacity1 1s 1 forwards;}*/
