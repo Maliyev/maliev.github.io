@@ -395,7 +395,7 @@ footer{
    display: flex;
    justify-content: space-around;
 }
-.how_work_container p{ opacity:0; }
+/*.how_work_container p{ opacity:0; }
 
 .how_work:hover .how_work_container p{animation: opacity1 .8s 1 forwards;}
 .how_work:hover .how_work_container {animation: opacity1 .8s 1 forwards;}
@@ -438,4 +438,4 @@ footer{
 .design:hover .column{animation: opacity1 1s 1 forwards;}
 
 .last>*{opacity: 0;}
-.last:hover .last_container{animation: opacity1 1s 1 forwards;}
+.last:hover .last_container{animation: opacity1 1s 1 forwards;}*/
