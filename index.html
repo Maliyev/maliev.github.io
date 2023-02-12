@@ -4,27 +4,35 @@
   <meta charset="UTF-8">
   <title>Система умный дом</title>
   <link rel="stylesheet" href="sources/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body style="">
 <!--—————————————————————————————————————————————————————————————————————————-->
     <header>
-        <div id="logo"><span id="logo_span">EZ</span></div>
-        <nav>
-            <a class="underline" href="#">ГЛАВНАЯ</a>
-            <a class="underline" href="subscribe/index.html">РАССЫЛКА</a>
-            <a class="underline" href="#">ПОДДЕРЖКА</a>
-            <a class="underline" href="cart/index.html" style="color:#44DBBD;">CART</a>
-        </nav>
+        <div class="logo">EZ</div>
+        <div class="burger-menu" style="">
+            <span></span>
+        </div>
+
+    <nav class="nav">
+        <ul class="nav-list" style="list-style: none;">
+            <a class="underline" href="" style="margin-right:var(--a_margin)">ГЛАВНАЯ</a>
+            <a class="underline" href="subscribe/index.html" style="margin-right:var(--a_margin)">РАССЫЛКА</a>
+            <a class="underline" href="" style="margin-right:var(--a_margin)">ПОДДЕРЖКА</a>
+            <a class="underline" href="cart/index.html">КОРЗИНА</a>
+        </ul>
+    </nav>
     </header>
+
 <!--—————————————————————————————————————————————————————————————————————————-->
     <main>
         <article class="first">
-                <img src="sources/img/img1.jpg" alt="EZ" style="position: absolute;width: 558px;height: 683px;left: 45%;top: 26%;">
                 <div class="text_container">
-                    <p class="text" style="width: 338px;height: 104px;">ВАШ ДОМ ТОЛЬКО УМНЕЕ</p>
-                    <p class="text" style="font-size: 15px;width: 308px;height: 36px;line-height: 18px;margin-top:43px;">Lorem ipsum dolor, sit, amet consectetur adipisicing.</p>
+                    <p class="text" id="fitst_text" style="width: 338px;height: 104px;">ВАШ ДОМ ТОЛЬКО УМНЕЕ</p>
+                    <p class="text" style="width: 250px;margin-top:43px;font:var(--font_8);letter-spacing: 1px;">Технологичная система умного дома специально для вас.</p>
                 <button class="buy">КУПИТЬ</button>
                 </div>
+                <img src="sources/img/img1.jpg" alt="EZ" style="position: absolute;/*width: 558px*/;height: 70%;left: 45%;top: 26%;">
         </article>
 <!--—————————————————————————————————————————————————————————————————————————-->
         <article class="how_work">
@@ -32,10 +40,10 @@
                 <p class="text" style="width: 220px;height: 104px;margin-bottom:38px;">КАК ЭТО РАБОТАЕТ</p>
                 <p class="text" style="font-size: 15px;width: 287px;height: 54px;line-height: 18px;">Lorem ipsum dolor sit amet temporibus consectetur, adipisicing elit officiis. Neque a, ipsa.</p>
 
-                <ul id="how_work_ul">
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
+                <ul class="how_work_ul">
+                    <li>Est rerum voluptas et libero amet et quia iusto</li>
+                    <li>Sed tempora amet a porro quasi aut quia ipsa</li>
+                    <li>Aut praesentium quia in doloribus libero.</li>
                 </ul>
             </div>
         </article>
@@ -45,61 +53,66 @@
                 <div class="about_line1">
                     <div class="about_el1 about_el">
                         <img src="sources/img/icons/icon1.png" alt="" id="el_icons">
-                        <p class="text4"style="font-size: 15px;">БЕЗ ПРОВОДОВ</p>
+                        <p class="text4 about_text"style="font-size: 15px;">БЕЗ ПРОВОДОВ</p>
                         <p class="text4 el_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, consequatur.</p>
                     </div>
                     <div class="about_el2 about_el">
                         <img src="sources/img/icons/icon2.png" alt="" id="el_icons">
-                        <p class="text4">ЭКОНОМИЯ ЭНЕРГИИ</p>
+                        <p class="text4 about_text">ЭКОНОМИЯ ЭНЕРГИИ</p>
                         <p class="text4 el_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, consequatur.</p>
                     </div>
                     <div class="about_el3 about_el">
                         <img src="sources/img/icons/icon3.png" alt="" id="el_icons">
-                        <p class="text4">ПРОСТОЕ УПРАВЛЕНИЕ</p>
+                        <p class="text4 about_text">ПРОСТОЕ УПРАВЛЕНИЕ</p>
                         <p class="text4 el_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, consequatur.</p>
                     </div>
                 </div>
                 <div class="about_line2">
                     <div class="about_el4 about_el">
                         <img src="sources/img/icons/icon4.png" alt="" id="el_icons">
-                        <p class="text4">ЛЕГКАЯ УСТАНОВКА</p>
+                        <p class="text4 about_text">ЛЕГКАЯ УСТАНОВКА</p>
                         <p class="text4 el_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, consequatur.</p>
                     </div>
                     <div class="about_el5 about_el">
                         <img src="sources/img/icons/icon5.png" alt="" id="el_icons">
-                        <p class="text4">ОТЛИЧНЫЙ ДИЗАЙН</p>
+                        <p class="text4 about_text">ОТЛИЧНЫЙ ДИЗАЙН</p>
                         <p class="text4 el_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, consequatur.</p>
                     </div>
                     <div class="about_el6 about_el">
                         <img src="sources/img/icons/icon6.png" alt="" id="el_icons">
-                        <p class="text4">ВЫСОКАЯ СОВМЕСТИМОСТЬ</p>
+                        <p class="text4 about_text">ВЫСОКАЯ СОВМЕСТИМОСТЬ</p>
                         <p class="text4 el_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, consequatur.</p>
                     </div>
                 </div>
             </div>
         </article>
 
-        <article class="img"><span class = "_img">ПРИЯТНЫЕ ИЗГИБЫ</span></article>
+        <article class="img img_block"><span class = "_img">ПРИЯТНЫЕ ИЗГИБЫ</span></article>
 <!--—————————————————————————————————————————————————————————————————————————-->
-        <article class="design">
-            
-            <span class="text" id="main_text"style="font-size: 43px;">МИНИМАЛИСТИЧНЫЙ И УМНЫЙ ДИЗАЙН</span>
-            <img id="design__img" src="sources/img/img4.png">
-            <div class="column">    
-                <span class="text2" id="design_text1">Индикатор экономии энергии </span>
-                <div class="line1"></div>
-                <span class="text2" id="design_text2">Индикаторы подключенных устройств</span>
-                <div class="line2"></div>
-                <span class="text2" id="design_text3">Гладкая поверхность из алюминия</span>
-                <div class="line3"></div>
-                <span class="text2" id="design_text4">Цвет внутренней поверхности на ваш выбор</span>
-                <div class="line4"></div>
-            <img src="sources/img/img5.png" alt="colors" id="colors">
+        <article class="design" style= "/*display: flex;*/">
+            <div class="design_container" style="/*display: flex;*/">
+                <span class="text" id="main_text" style="font-size: 43px;">МИНИМАЛИСТИЧНЫЙ И УМНЫЙ ДИЗАЙН</span>
+                <img id="design__img" src="sources/img/img-1.png" style="">
+                <img id="mobile_img" src="sources/img/img4.png" style="display: none;">
+                    <div class="design_main_container" style="display: none;/*display: flex;*/">
+                        <div class="column" style="position: absolute;top: 0px;left:0px;">    
+                            <span class="text2" id="design_text1" style="">Индикатор экономии энергии </span>
+                            <div class="line1 line" style=""></div>
+                            <span class="text2" id="design_text2">Индикаторы подключенных устройств</span>
+                            <div class="line2 line"></div>
+                            <span class="text2" id="design_text3">Гладкая поверхность из алюминия</span>
+                            <div class="line3 line"></div>
+                            <span class="text2" id="design_text4">Цвет внутренней поверхности на ваш выбор</span>
+                            <div class="line4 line"></div>
+                        </div>
+                    <img src="sources/img/img5.png" alt="colors" id="colors">
+                
+                </div>
             </div>
         </article>
 <!--—————————————————————————————————————————————————————————————————————————-->
         <article class="last">
-            <div class="last_container">
+            <div class="last_container" >
                 <p class="text" style="font-size: 43px;line-height: normal;">ЖИТЬ ХОРОШО</p>
                 <span class="text" style="font-size: 13px;font-weight: 300;line-height: normal;margin-top:28px;">Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Veritatis, consequatur.</span>
                 <a href="#"><div class="buy" style="margin-top:50px;"><span class="buy_">КУПИТЬ</span></div></a>
@@ -141,7 +154,6 @@
             </div>
         </div>
     </footer>
+    <script src="sources/script.js"></script>
 </body>
 </html>
-
-
